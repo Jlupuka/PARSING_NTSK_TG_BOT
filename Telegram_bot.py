@@ -85,8 +85,6 @@ def give_information_about_user(message):
 
     bot.send_message(message.from_user.id, user)
 
-    # bot.register_next_step_handler(message, create_db)
-
 
 @bot.message_handler(commands=['help'])
 def give_help(message):
